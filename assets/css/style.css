@@ -1,0 +1,126 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor {
+    display: flex;
+    height: 100vh;
+}
+
+.menu {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu img {
+    border-radius: 60%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.estadodeusuario {
+    font-family: 'Roboto', sans-serif;
+    color: #00000078;
+    font-size: 12px;
+}
+
+.usuariomenu {
+    display: flex;
+    width: 260px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.contenidoprincipal {
+    background-color: #eee;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.contenidoprincipal img {
+    font-family: 'Roboto', sans-serif;
+    width: 400px;
+}
+
+.contenidoprincipal p {
+    font-family: 'Roboto', sans-serif;
+}
+
+.titulo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding-bottom: 2%;
+}
+
+.imgusuario {
+    display: flex;
+    cursor: pointer;
+}
+
+.usuario {
+    display: flex;
+    justify-content: space-around;
+    width: 220px;
+    height: 80px;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    width: 50px;
+    color: #cccc;
+}
+
+.button {
+    border-top: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    height: 100px;
+}
+
+.button button {
+    font-family: 'Roboto', sans-serif;
+    background-color: #9f62b1;
+    color: #ffffff;
+    padding: 10px 30px;
+}
+
+.chats {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.chats .perfil {
+    padding-left: 4%;
+    border-bottom: 1px solid #ccc;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+}
+
+.perfil:hover,
+.button button:hover {
+    opacity: 80%;
+    cursor: pointer;
+}
+
+.mensaje {
+    font-size: 14px;
+}
